@@ -1,0 +1,73 @@
+html{
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+/*general formatting of page*/
+.container{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 100vh;
+  width: 100vw;
+}
+/*sidebar styling*/
+.sideBar{
+  background-color: blue;
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding-left: 15px;
+}
+
+.logo{
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.logo svg{
+  width: 800px;
+}
+
+.navBarTop, .navBarBottom{
+  padding: 10px;
+}
+
+.logo, .navItem{
+  display: flex;
+  list-style-type: none;
+}
+
+.navItem{
+  font-size: 1.3em;
+  padding-left: 5px;
+  margin-top: 8px;
+}
+.navItem svg{
+  padding-right: 15px;
+}
+
+/*end of sidebar*/
+
+.homePage{
+  background-color: orange;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.homePageTop{
+  height: 20vh;
+  width: 100%;
+  background-color: white;
+  border: 5px solid black;
+}
+
+.searchBar{
+  display: flex;
+}
+
+.gridLayout{
+  height: 80vh;
+}
