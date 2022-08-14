@@ -51,10 +51,8 @@ html{
 /*end of sidebar*/
 
 .homePage{
-  background-color: orange;
   width: 100%;
   height: 100%;
-  display: flex;
 }
 
 .homePageTop{
@@ -66,8 +64,116 @@ html{
 
 .searchBar{
   display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 30px;
 }
 
+.searchBar input{
+  width: max(100px, 55vh);
+}
+
+.searchBarRight{
+  margin-left: auto;
+  min-width: 254px;
+}
+
+/* end of search bar start of user intro */
+
+.userIntro{
+  display: flex;
+  align-items: center;
+}
+
+.introLeft{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding-left: 20px;
+  min-width: 40%;
+}
+
+.introHello{
+  line-height:15%;
+  min-width: 300px;
+}
+
+.introRight{
+  width: 70%;
+}
+
+.introRight, .searchBarRight{
+  padding-right: 30px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/*
+
+/* grid layout in middle of page */
+
 .gridLayout{
+  display: grid;
   height: 80vh;
+  background-color: aqua;
+  grid-template-columns:2fr 1fr;
+}
+
+.projectGrid{
+  background-color: pink;
+  padding-left: 30px;
+}
+
+.announcementsGrid{
+  background-color: red;
+  border: 10px solid purple;
+}
+
+.projectBox{
+  display: grid; 
+  /*it's a grid inside of a grid! */
+  height: 80%;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, 200px);
+}
+
+.project{
+  background-color: orange;
+  border: 5px solid black;
+  height: 150px;
+}
+
+/* announcements sidebar */
+
+.announcementsBox, .trendingBox{
+  height: 40%;
+  padding-left: 10px;
+}
+
+.trendingBox{
+  padding-top: 40px;
+}
+
+.announcementsItems{
+  background-color: white;
+}
+
+.mainProPic{
+  width: 70px;
+  border-radius: 50%;
+}
+
+.smallProPic{
+  width: 40px;
+  border-radius: 50%;
+}
+
+.trendingBox .aItem{
+  display: flex;
+  align-items: center;
+  border-bottom: 5px solid red;
+  max-height: 50px;
 }
