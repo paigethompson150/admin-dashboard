@@ -7,4 +7,4 @@ An admin dashboard I created to practice using a combination of grid layout and 
 <a href="https://paigethompson150.github.io/admin-dashboard/">Admin Dashboard</a>
 
 ## Preview
-![preview of admin dashboard](https://imgur.com/72edc98c-5464-4690-ae38-e2e83f457b5b)
+![preview of admin dashboard](https://i.imgur.com/08VJEQs.png)
